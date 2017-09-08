@@ -12,6 +12,7 @@
     <modules>
         <module>java8-lambda</module>
         <module>java8-stream</module>
+        <module>java8-datetime</module>
     </modules>
 
     <properties>
