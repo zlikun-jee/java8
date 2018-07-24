@@ -43,9 +43,7 @@ public class LambdaTest {
         System.out.println(list);
 
         // 使用Lambda表达式实现排序操作
-        Collections.sort(list ,(a ,b) -> {
-            return a.compareTo(b) ;
-        });
+        Collections.sort(list , String::compareTo);
 
         // [A, B, C]
         System.out.println(list);
